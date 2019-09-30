@@ -1,6 +1,6 @@
 package main;
 
-import main.domain.MovieController;
+import main.controller.MovieController;
 import main.view.InputView;
 
 public class MovieApplication {
@@ -10,6 +10,6 @@ public class MovieApplication {
 		do {
         	selectFunctionNum = InputView.selectFunction();
          	MovieController.run(selectFunctionNum);
-        } while(selectFunctionNum != 8); //input = 4 Á¾·á
+        } while(selectFunctionNum != 10); 
     }
 }

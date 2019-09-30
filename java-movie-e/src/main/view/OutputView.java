@@ -25,7 +25,4 @@ public class OutputView {
 		String movieName = selectedMovie.getName();
 		System.out.println("<" + movieName + ">의 관객수는 " + customerNum + "명 입니다.");
 	}
-
-
-
 }
